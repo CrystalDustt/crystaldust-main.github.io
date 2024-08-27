@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background: #000000;
+  background: #808080;
   transition: 0.5s;
   padding-top: 80px;
 }
@@ -68,7 +68,7 @@ body {
 }
 .description {
   font-size: 14px;
-  color: #858282;
+  color: #808080;
   text-align: center;
 }
 .subtitle {
