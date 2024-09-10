@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background: #808080;
+  background: #ffffff;
   transition: 0.5s;
   padding-top: 80px;
 }
