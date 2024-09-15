@@ -87,58 +87,12 @@ p {
   color: #858282;
 }
 
-/* Slider container style */
-.slider-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  max-width: 800px;
-  margin: auto;
-}
 
-/* Slide styles */
-.slider {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.slide {
-  min-width: 100%;
-  transition: transform 0.5s;
-}
-
-img {
-  width: 100%;
-  vertical-align: middle;
-}
-
-/* Navigation buttons */
-.prev, .next {
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 24px;
-  cursor: pointer;
-  user-select: none;
-  background-color: rgba(0,0,0,0.5);
-}
-
-.prev {
-  left: 0;
-}
-
-.next {
-  right: 0;
-}
 
 /* Responsive scaling */
 @media (max-width: 600px) {
-  .slide img {
-    width: 150%; /* Image scales wider than the screen */
+  .card {
+    width: 150%;
   }
 }
 
