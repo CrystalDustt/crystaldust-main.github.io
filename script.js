@@ -1,11 +1,30 @@
-// Add an event listener to the window resize event
+showSlide(currentIndex);
 window.addEventListener('resize', handleResize);
 
-// Function to handle scaling dynamically when the window is resized
 function handleResize() {
   const width = window.innerWidth;
   const body = document.body;
-  
+  window.addEventListener('resize', () => {
+  slideWidth = document.querySelector('.slider-container').offsetWidth;
+  showSlide(currentIndex);
+
+function changeSlide(direction) {
+  currentIndex += direction;
+
+  if (currentIndex >= totalSlides) {
+    currentIndex = 0;
+  } else if (currentIndex < 0) {
+    currentIndex = totalSlides - 1;
+  }
+
+  showSlide(currentIndex);
+}
+
+function showSlide(index) {
+  const offset = -index * slideWidth;
+  document.querySelector('.slider').style.transform = `translateX(${offset}px)`;
+}
+    
   if (width <= 480) {
     body.style.fontSize = '14px';  // Adjust font size for small screens
     document.querySelector('header h1').style.fontSize = '24px';
