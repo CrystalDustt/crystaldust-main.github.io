@@ -87,7 +87,28 @@ p {
   color: #858282;
 }
 
+.General {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
 
+.General i:hover {
+  color: #00a9ff;
+}
+
+.General i {
+  font-size: 25px;
+  color: #00bfff;
+  border-radius: 5px;
+  border: 1px solid #00a9ff;
+  width: 55px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
 
 /* Responsive scaling */
 @media (max-width: 600px) {
