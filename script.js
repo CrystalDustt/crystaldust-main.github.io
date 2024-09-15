@@ -1,3 +1,4 @@
+document.head.appendChild(link)
 showSlide(currentIndex);
 window.addEventListener('resize', handleResize);
 
@@ -24,11 +25,21 @@ function showSlide(index) {
   const offset = -index * slideWidth;
   document.querySelector('.slider').style.transform = `translateX(${offset}px)`;
 }
-    
-  if (width <= 480) {
-    body.style.fontSize = '14px';  // Adjust font size for small screens
-    document.querySelector('header h1').style.fontSize = '24px';
-    document.querySelector('nav ul li a').style.fontSize = '16px';
+
+const link = document.createElement('link');
+link.rel = 'stylesheet';
+link.href = 'style.css';
+    let "style.css" = 650
+  if (width <= 650) {
+    let scale = "style.css" * 0.9
+  if (width <= 585) {
+    let scale = "style.css" * 0.8
+  if (width <= 520) {
+    let scale = "style.css" * 0.7
+  if (width <= 455) {
+    let scale = "style.css" * 0.6
+  if (width <= 390) {
+    let scale = "style.css" * 0.5
   } else if (width <= 768) {
     body.style.fontSize = '16px';  // Adjust for tablet-sized screens
     document.querySelector('header h1').style.fontSize = '28px';
