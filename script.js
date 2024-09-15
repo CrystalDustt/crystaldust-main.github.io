@@ -38,5 +38,5 @@ function showSlide(index) {
     document.querySelector('header h1').style.fontSize = '36px';
     document.querySelector('nav ul li a').style.fontSize = '20px';
   }
-}
+)}
 handleResize();
