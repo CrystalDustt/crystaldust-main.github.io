@@ -58,6 +58,16 @@ body {
 .soc-icons a {
   text-decoration: none;
 }
+.bi bi-globe-asia-australia {
+  width: 40px;
+  height: 40px;
+  color: #00d4ff;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
 .name {
   font-size: 20px;
   font-weight: 600;
