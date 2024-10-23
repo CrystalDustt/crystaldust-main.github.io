@@ -52,7 +52,7 @@ body {
   transition: 0.5s;
 }
 .soc-icons i:hover {
-  color: #fff;
+  color: #000000;
   background: #858282;
 }
 .soc-icons a {
