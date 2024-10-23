@@ -58,6 +58,31 @@ body {
 .soc-icons a {
   text-decoration: none;
 }
+.soc-icons2 {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.soc-icons2 i {
+  font-size: 25px;
+  color: #858282;
+  border-radius: 5px;
+  border: 1px solid #858282;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+.soc-icons2 i:hover {
+  color: #000000;
+  background: #858282;
+}
+.soc-icons2 a {
+  text-decoration: none;
+}
 .bi-bi-globe-asia-australia {
   width: 40px;
   height: 40px;
